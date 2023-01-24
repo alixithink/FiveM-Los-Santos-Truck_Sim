@@ -12,7 +12,11 @@ To do this use this template and fill in with your own data.
   jobTrailerCode = Trailer spawn code,
   jobTrailerLiv = Trailer livery, [Currently not working]
   -- giveMoney = Dont need this line,
-  finalLocation = {x=Input the x coord of the destination, y=Input the y coord of the destination, z=Input the z coord of the destination}
+  finalLocation = {
+    x=Input the x coord of the destination, 
+    y=Input the y coord of the destination, 
+    z=Input the z coord of the destination
+  }
 }
 - Config.spawnTruckCode: The truck that spawns when starting a job.
 
