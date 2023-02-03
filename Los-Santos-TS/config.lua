@@ -1,5 +1,7 @@
 Config = { }
 
+Config.totalDamage = true
+
 Config.location = {
     { 
         name = "El Burro",
@@ -33,7 +35,24 @@ Config.location = {
     }
 }
 
-Config.spawnTruckCode = "phantom"
+Config.spawnTruckCode = {
+    {
+        spawnName = 'None',
+        spawnCode = 'n/a'
+    },
+    {
+        spawnName = 'Phantom',
+        spawnCode = 'phantom'
+    },
+    {
+        spawnName = 'Hauler',
+        spawnCode = 'hauler'
+    }, 
+    {
+        spawnName = 'Packer',
+        spawnCode = 'packer'
+    }
+}
 
 Config.jobs = {
     { 
@@ -42,7 +61,8 @@ Config.jobs = {
         jobTrailerCode = "trailers", 
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=4.013825, y=6277.184, z=31.22961}
+        finalLocation = {x=4.013825, y=6277.184, z=31.22961},
+        time = 300000, -- 5 Mins
     },
     { 
         startJob = "Docks", 
@@ -50,7 +70,8 @@ Config.jobs = {
         jobTrailerCode = "trailers", 
         jobTrailerLiv = 3, 
         -- giveMoney = 10000,
-        finalLocation = {x=593.5133, y=2813.884, z=41.92601}
+        finalLocation = {x=593.5133, y=2813.884, z=41.92601},
+        time = 300000, -- 5 Mins
     },
     { 
         startJob = "Docks", 
@@ -58,7 +79,8 @@ Config.jobs = {
         jobTrailerCode = "trailers", 
         jobTrailerLiv = 3, 
         -- giveMoney = 10000,
-        finalLocation = {x=107.6295, y=-1611.022, z=29.4247}
+        finalLocation = {x=107.6295, y=-1611.022, z=29.4247},
+        time = 180000, -- 3 Mins
     },
     {
         startJob = "24/7",
@@ -66,7 +88,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=-17.5638, y=-1766.689, z=29.1402}
+        finalLocation = {x=-17.5638, y=-1766.689, z=29.1402},
+        time = 120000, -- 2 Mins
     },
     {
         startJob = "24/7",
@@ -74,7 +97,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=-22.0919, y=-1307.718, z=29.2381}
+        finalLocation = {x=-22.0919, y=-1307.718, z=29.2381},
+        time = 120000, -- 2 Mins
     },
     {
         startJob = "24/7",
@@ -82,7 +106,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=1148.3676, y=-988.5480, z=45.7874}
+        finalLocation = {x=1148.3676, y=-988.5480, z=45.7874},
+        time = 180000, -- 3 Mins
     },
     {
         startJob = "24/7",
@@ -90,7 +115,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=1173.2247, y=-315.9913, z=69.1788}
+        finalLocation = {x=1173.2247, y=-315.9913, z=69.1788},
+        time = 240000, -- 4 Mins
     },
     {
         startJob = "24/7",
@@ -98,7 +124,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=-707.5034, y=-926.2511, z=19.0139}
+        finalLocation = {x=-707.5034, y=-926.2511, z=19.0139},
+        time = 300000, -- 5 Mins
     },
     {
         startJob = "24/7",
@@ -106,7 +133,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=-1223.507, y=-892.9241, z=12.3428}
+        finalLocation = {x=-1223.507, y=-892.9241, z=12.3428},
+        time = 300000, -- 5 Mins
     },
     {
         startJob = "24/7",
@@ -114,7 +142,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=-1461.033, y=-383.3216, z=38.7019}
+        finalLocation = {x=-1461.033, y=-383.3216, z=38.7019},
+        time = 300000, -- 5 Mins
     },
     {
         startJob = "24/7",
@@ -122,7 +151,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=-2958.059, y=400.0016, z=15.0390}
+        finalLocation = {x=-2958.059, y=400.0016, z=15.0390},
+        time = 300000, -- 5 Mins
     },
     {
         startJob = "24/7",
@@ -130,7 +160,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=2565.0811, y=397.6402, z=108.4640}
+        finalLocation = {x=2565.0811, y=397.6402, z=108.4640},
+        time = 480000, -- 8 Mins
     },
     {
         startJob = "24/7",
@@ -138,7 +169,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=1162.5521, y=2726.5342, z=38.0041}
+        finalLocation = {x=1162.5521, y=2726.5342, z=38.0041},
+        time = 480000, -- 8 Mins
     },
     {
         startJob = "24/7",
@@ -146,7 +178,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=2655.2563, y=3265.6750, z=55.2406}
+        finalLocation = {x=2655.2563, y=3265.6750, z=55.2406},
+        time = 480000, -- 8 Mins
     },
     {
         startJob = "24/7",
@@ -154,7 +187,8 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=1962.8306, y=3766.7546, z=32.1970}
+        finalLocation = {x=1962.8306, y=3766.7546, z=32.1970},
+        time = 480000, -- 8 Mins
     },
     {
         startJob = "24/7",
@@ -162,6 +196,7 @@ Config.jobs = {
         jobTrailerCode = "trailers",
         jobTrailerLiv = 3,
         -- giveMoney = 10000,
-        finalLocation = {x=1716.1366, y=4938.3887, z=42.0783}
+        finalLocation = {x=1716.1366, y=4938.3887, z=42.0783},
+        time = 480000, -- 8 Mins
     }
 }
