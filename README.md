@@ -22,5 +22,5 @@ To do this use this template and fill in with your own data.
 
 # Support
 
-If you have any problems and or questions with this script or you would like to keep up with all my scripts then join my discord server.
-https://discord.gg/xMzdzTSJQa
+If you have any problems and or questions with this script or you would like to keep up with all my scripts then contact me on discord.
+Discord: alixithink
